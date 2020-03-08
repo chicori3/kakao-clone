@@ -13,6 +13,7 @@
       integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Friends | Kakao Clone</title>
   </head>
   <body>
@@ -30,29 +31,31 @@
     </div>
     <header class="header">
       <div class="header__header-column">
-        <div class="header__title">Friends</div>
+        <div class="header__title">친구</div>
       </div>
       <div class="header__header-column">
-        <span class="header-icon">
+        <span class="header__icon">
           <i class="fas fa-search"></i>
         </span>
-        <span class="header-icon">
-          <i class="fas fa-cog"></i>
+        <span class="header__icon">
+          <a href="settings.html">
+            <i class="fas fa-cog"></i>
+          </a>
         </span>
       </div>
     </header>
     <main class="friends">
       <header class="friends__header">
-        <div class="friends__friend friend friend--lg">
-          <div class="friends__column">
+        <div class="friends__friend friend">
+          <div class="friend__column">
             <img
               src="images/avatar.jpg"
-              alt=""
+              alt="avatar"
               class="g-avatar friend__avatar"
             />
             <div class="friend__content">
-              <span class="friend__name">기철</span>
-              <span class="friend__status">look for work</span>
+              <span class="friend__name">뚱이</span>
+              <span class="friend__status">아뇨 뚱인데요?</span>
             </div>
           </div>
         </div>
@@ -60,14 +63,10 @@
       <div class="friends__plus">
         <h5 class="friends__title">플러스 친구</h5>
         <div class="friends__friend friend">
-          <div class="friends__column">
-            <img
-              src="images/avatar.jpg"
-              alt=""
-              class="g-avatar friend__avatar"
-            />
+          <div class="friend__column">
+            <img src="images/avatar.jpg" alt="avatar" class="friend__avatar" />
             <div class="friend__content">
-              <span class="friend__name">플러스 친구</span>
+              <span class="friend__name">집게리아</span>
             </div>
           </div>
         </div>
@@ -76,19 +75,15 @@
         <h5 class="friends__title">친구 14</h5>
         <li class="friends__friend friend friend--lg">
           <div class="friend__column">
-            <img
-              src="images/avatar.jpg"
-              alt=""
-              class="g-avatar friend__avatar"
-            />
+            <img src="images/avatar.jpg" alt="avatar" class="friend__avatar" />
             <div class="friend__content">
-              <span class="friend__name">기철</span>
-              <span class="friend__status">look for work</span>
+              <span class="friend__name">스폰지밥</span>
+              <span class="friend__status">월요일 좋아</span>
             </div>
           </div>
           <div class="friend__column">
             <div class="friend__now-listening">
-              <span>창모 - Meteor</span>
+              <span>스폰지밥 - 월요일 좋아</span>
               <i class="fas fa-play"></i>
             </div>
           </div>
@@ -104,6 +99,7 @@
         </li>
         <li class="nav__list-item">
           <a href="index.html" class="nav__list-link">
+            <div class="nav__badge">1</div>
             <i class="far fa-comment"></i>
           </a>
         </li>

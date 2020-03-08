@@ -13,6 +13,7 @@
       integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Find | Kakao Clone</title>
   </head>
   <body>
@@ -33,11 +34,13 @@
         <div class="header__title">Find</div>
       </div>
       <div class="header__header-column">
-        <span class="header-icon">
+        <span class="header__icon">
           <i class="fas fa-search"></i>
         </span>
-        <span class="header-icon">
-          <i class="fas fa-cog"></i>
+        <span class="header__icon">
+          <a href="settings.html">
+            <i class="fas fa-cog"></i>
+          </a>
         </span>
       </div>
     </header>
@@ -76,11 +79,7 @@
         </h5>
         <li class="find__friend friend friend--lg">
           <div class="friend__column">
-            <img
-              src="images/avatar.jpg"
-              alt=""
-              class="g-avatar friend__avatar"
-            />
+            <img src="images/avatar.jpg" alt="avatar" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">기철</span>
             </div>
@@ -102,6 +101,7 @@
         </li>
         <li class="nav__list-item">
           <a href="index.html" class="nav__list-link">
+            <div class="nav__badge">1</div>
             <i class="far fa-comment"></i>
           </a>
         </li>
