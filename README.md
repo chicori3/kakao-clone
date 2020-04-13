@@ -1,6 +1,7 @@
 # kakao-clone
  It's clone of the chatting app Kakao talk.<br />
- Only HTML and CSS worked.
+ Only HTML and CSS worked.<br />
+ Thanks for LEVEL UP!
  
 # Features
  UI Desgin<br />
